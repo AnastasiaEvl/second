@@ -1,0 +1,42 @@
+/*task 5*/
+ul {
+    list-style: square;
+}
+/*task 6*/
+li {
+    list-style: none;
+}
+li::before {
+    content: '!'
+}
+/*task 7*/
+ul {
+    /*list-style-image: url(/example/image/book.png);*/
+}
+/*task 8*/
+li {
+    display: inline-block;
+    padding: 10px;
+}
+/*task 10*/
+td {
+    background: #ececec;
+    padding: 0.5rem
+}
+/*task 11*/
+table {
+    border-spacing: 4px;
+}
+td {
+    color: #fff;
+    background: #4c715b;
+    padding: 5px;
+}
+
+/*additional task*/
+.border {
+    background-color: #b2d235;
+    outline: 3px solid white;
+    outline-offset: -20px;
+    padding: 30px;
+}
